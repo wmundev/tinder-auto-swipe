@@ -1,6 +1,8 @@
 # Auto swiper for tinder
 Simple application that helps you to auto swipe on matches so you don't have to do it manually
 
+Will also automatically login to tinder via facebook login using puppeteer.
+
 # Running the app
 For automatic login to facebook and then to auto swipe on matches randomly
 
