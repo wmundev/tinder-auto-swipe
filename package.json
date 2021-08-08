@@ -1,0 +1,33 @@
+{
+  "name": "tinder-auto-swipe",
+  "version": "1.0.0",
+  "main": "autoSwiper.js",
+  "scripts": {
+    "start": "ts-node src/autoSwiper.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wmundev/tinder-auto-swipe.git"
+  },
+  "author": "Wilson Mun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wmundev/tinder-auto-swipe/issues"
+  },
+  "homepage": "https://github.com/wmundev/tinder-auto-swipe#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "puppeteer": "^2.1.1",
+    "puppeteer-extra": "^3.1.9",
+    "puppeteer-extra-plugin-anonymize-ua": "^2.2.14",
+    "puppeteer-extra-plugin-stealth": "^2.6.1",
+    "ts-node": "^9.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.27",
+    "@types/puppeteer": "^2.0.0",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.5"
+  }
+}
